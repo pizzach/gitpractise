@@ -30,7 +30,7 @@ public class ReportController {
     public List<HeroVO> query(@RequestBody HeroVO vo){
     	
     	
-
+    	System.out.println("");
     	
     	
     	
