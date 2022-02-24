@@ -30,8 +30,8 @@ public class ReportController {
     public List<HeroVO> query(@RequestBody HeroVO vo){
     	
     	
-    	System.out.println("");
-    	
+    	System.out.println("ddd");
+    	System.out.println("asd");
     	
     	
         return reportFun.queryHero(vo.getId());
